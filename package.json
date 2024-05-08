@@ -1,0 +1,22 @@
+{
+  "name": "webhoster",
+  "version": "1.0.11",
+  "description": "Api de armazenamento de dominios completo ( M2 Desenvolvimento WEB I)",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "mysql2": "^3.6.5",
+    "node-modules": "^1.0.1",
+    "oas3-tools": "^2.2.3"
+  }
+}
